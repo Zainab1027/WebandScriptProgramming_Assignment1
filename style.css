@@ -127,6 +127,7 @@ p {
 #header .navList ul li:hover a {
     color: rgb(220, 20, 163);
 }
+/*End header Section*/
 
 /*Home Section*/
 .home.container {
@@ -155,12 +156,12 @@ p {
     /* Ensures the image is responsive */
     height: auto;
     border-radius: 10px;
-    /* Optional: adds rounded corners */
+    /*adds rounded corners */
     max-width: 350px;
     /* Adjust the maximum width of the image */
 }
 
-/* Right side: Text and button container */
+/* Right side - Text and button container */
 .home-right {
     flex: 0.5;
     /* Takes up equal space on the right */
@@ -237,7 +238,7 @@ p {
 
 .home-right h1 span {
     color: rgb(255, 179, 192);
-    /* Emphasize "Welcome" and "Zainab Syed" in pink */
+    /* Make "Welcome" and "Zainab Syed" in pink */
 }
 
 .home-right a.btn {
@@ -282,8 +283,6 @@ p {
     color: white;
     /* Footer logo font in white */
 }
-
-
 
 /*End of Home Section*/
 
@@ -340,14 +339,6 @@ video {
     background-color: rgb(250, 80, 151);
     border: 2px solid whitesmoke;
     box-shadow: 8px 8px 4px black;
-}
-
-/* Styling for the "My Artworks" label */
-.artworks-title {
-    font-size: 2rem;
-    text-align: left;
-    margin-bottom: 10px;
-    color: black;
 }
 
 /* Styling for artwork images */
@@ -453,6 +444,7 @@ video {
 #projects .projectItem:hover .projectImg img {
     transform: scale(1.1);
 }
+/* End Projects Section */
 
 /* Contact Section */
 #contact {
@@ -519,6 +511,7 @@ video {
 #contact .phpEmailForm button:hover {
     background-color: rgb(176, 44, 125);
 }
+/* End Footer Section */
 
 /* Footer */
 #footer {
