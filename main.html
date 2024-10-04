@@ -225,7 +225,7 @@
 
     <!-- JavaScript for the navigation bar and scrolling effects -->
     <script>
-        <!-- toggle mobile navigation menu -->
+        //toggle mobile navigation menu
         const navLines = document.querySelector(".header .navBar .navList .navLines");
         const menuItem = document.querySelectorAll(".header .navBar .navList ul li a");
         const head = document.querySelector(".header.container");
@@ -236,7 +236,7 @@
             mobileMenu.classList.toggle("active");
         });
 
-        <!-- here we change the header background color on scroll -->
+        //here we change the header background color on scroll
         document.addEventListener("scroll", () => {
             var scrollPosition = window.scrollY;
             if (scrollPosition < 250) {
@@ -246,7 +246,7 @@
             }
         });
 
-        <!-- here we close mobile menu when a navigation link is clicked -->
+        //here we close mobile menu when a navigation link is clicked
         menuItem.forEach((item) => {
             item.addEventListener("click", () => {
                 mobileMenu.classList.toggle("active");
