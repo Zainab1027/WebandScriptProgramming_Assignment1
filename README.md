@@ -5,6 +5,10 @@ This is my personal portfolio website created for INFR3120 – Web and Scripting
 - CSS3 for styling the website and ensuring responsiveness
 - Google Fonts for typography (Montserrat).
 - GitHub Pages for hosting the site.
+
+## Colours Used
+- #e18dff, black, rgb(220, 20, 123), #650a80, white, #ff77a0, #783288, #D2A0DE, hsl(327, 100%, 65%)
+
 ## Installation and Setup Instructions
 To view or modify the site:
 1. Go into this repository
