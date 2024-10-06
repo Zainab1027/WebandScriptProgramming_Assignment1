@@ -1,4 +1,32 @@
 @media (max-width: 768px) {
+    
+    .navbar {
+        display: flex;
+        flex-direction: column; /* Stack items */
+        align-items: center;
+        background-color: #fff;
+        width: 100%;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar a {
+        padding: 15px 20px; /* Increased padding */
+        text-align: center;
+        display: block; /* Block-level for full width */
+        width: 100%; /* Full width links */
+        color: #333;
+    }
+
+    .menu-toggle {
+        display: block; /* Show toggle */
+        cursor: pointer;
+    }
+
+    .navbar.hidden {
+        display: none; /* Hide when needed */
+    }
+}
+
 
     .navbar {
         display: flex;
