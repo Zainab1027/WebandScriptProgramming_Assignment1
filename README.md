@@ -21,7 +21,7 @@ Some external code was used in this project, which accounts for less than 10% of
 
 - Google Fonts: The Montserrat font was imported from [Google Fonts](https://fonts.google.com/).
 - Responsive layout and media queries inspiration was taken from [W3Schools](https://www.w3schools.com/).
-- Teacher's Code: The navigation bar and a bit of the project section of the CSS were provided by Ms. Ghazal Bangash during class and were used as part of the final design.
+- Teacher's Code: The navigation bar was provided by Ms. Ghazal Bangash during class and were used as part of the final design.
 
 ## Testing and Validation
 - HTML was validated using [W3C Markup Validation Service](http://validator.w3.org/).
